@@ -10,7 +10,7 @@ namespace ValueTypes
     {
         static void Main(string[] args)
         {
-            int i = 10;
+            int i = 15;
 
             Console.WriteLine(i);
             Console.ReadLine();
