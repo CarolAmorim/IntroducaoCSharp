@@ -20,11 +20,13 @@ namespace SelectionStatement
 
             // Comentário de uma linha
 
-            /* omentário
+            /* comentário
              * de
              * multiplas
              * linhas
              */
+
+            Console.ReadKey();
 
             #endregion
         }
