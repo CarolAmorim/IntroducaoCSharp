@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 15
-VisualStudioVersion = 15.0.28307.489
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.28803.352
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HalloWorld", "HalloWorld\HalloWorld.csproj", "{B8320B9E-9FC6-40F6-8D68-D00C97F2C2EE}"
 EndProject
@@ -12,6 +12,8 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "String", "String\String.csproj", "{AE05EA01-302F-463C-A0FE-51969500ACAA}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ValueTypes", "ValueTypes\ValueTypes.csproj", "{6DFC99B2-A893-4D36-8BD8-A9ED7197C9CF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SelectionStatement", "SelectionStatement\SelectionStatement.csproj", "{401EBF02-D0A7-46A4-B2F9-40F4B9925C70}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -39,6 +41,10 @@ Global
 		{6DFC99B2-A893-4D36-8BD8-A9ED7197C9CF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6DFC99B2-A893-4D36-8BD8-A9ED7197C9CF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6DFC99B2-A893-4D36-8BD8-A9ED7197C9CF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{401EBF02-D0A7-46A4-B2F9-40F4B9925C70}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{401EBF02-D0A7-46A4-B2F9-40F4B9925C70}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{401EBF02-D0A7-46A4-B2F9-40F4B9925C70}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{401EBF02-D0A7-46A4-B2F9-40F4B9925C70}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
