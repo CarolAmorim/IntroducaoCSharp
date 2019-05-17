@@ -24,11 +24,30 @@ namespace SelectionStatement
              * de
              * multiplas
              * linhas
-             */
-
-            Console.ReadKey();
+             */            
 
             #endregion
+
+            #region Switch
+            int c = int.Parse(Console.ReadLine());
+            switch (c)
+            {
+                case 0:
+                    Console.WriteLine("c == 0");
+                    break;
+                case 20:
+                    Console.WriteLine("c == 20");
+                    break;
+                default:
+                    Console.WriteLine("c =="+c.ToString());
+                    break;
+            }
+            #endregion
+
+
+
+
+            Console.ReadKey();
         }
     }
 }
