@@ -35,11 +35,21 @@ namespace Array
             ma1[0, 0] = 10;
 
             // Listas com tamanho e tipo não Definido  -- ArrayList
-            //
+            // 
+            // Trata os dados adicionados como objeto, podendo atrapalhar a performance da aplicação
+            // evitar uso para carregamento de dados simples
             ArrayList al = new ArrayList();
             al.Add(10);
             al.Add("Dez");
             al.Add(true);
+
+            // Generics
+            // uma forma de utilizar um "arrayList" no qual defino seu tipo
+            // é chamado genérico pois se adapta ao tipo informado
+            List<int> l1 = new List<int>();
+            l1.Add(10);
+            l1.Add(20);
+            l1.Add(30);
 
             Console.ReadKey();
         }
