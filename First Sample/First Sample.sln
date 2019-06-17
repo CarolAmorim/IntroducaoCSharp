@@ -17,7 +17,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SelectionStatement", "Selec
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IterationStatements", "IterationStatements\IterationStatements.csproj", "{D976BBB5-EEEE-451E-B0F9-3D4E15B221D9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Operadores", "Operadores\Operadores.csproj", "{E89E78CE-FEAB-48F5-BE93-0DD03726C551}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Operadores", "Operadores\Operadores.csproj", "{E89E78CE-FEAB-48F5-BE93-0DD03726C551}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClassSample", "ClassSample\ClassSample.csproj", "{DEB6E69A-DB2A-4483-90D0-8285EF49AFFD}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -57,6 +59,10 @@ Global
 		{E89E78CE-FEAB-48F5-BE93-0DD03726C551}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E89E78CE-FEAB-48F5-BE93-0DD03726C551}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E89E78CE-FEAB-48F5-BE93-0DD03726C551}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DEB6E69A-DB2A-4483-90D0-8285EF49AFFD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DEB6E69A-DB2A-4483-90D0-8285EF49AFFD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DEB6E69A-DB2A-4483-90D0-8285EF49AFFD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DEB6E69A-DB2A-4483-90D0-8285EF49AFFD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
